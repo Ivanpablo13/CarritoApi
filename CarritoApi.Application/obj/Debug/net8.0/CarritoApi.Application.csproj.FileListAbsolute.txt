@@ -1,0 +1,15 @@
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\bin\Debug\net8.0\CarritoApi.Application.deps.json
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\bin\Debug\net8.0\CarritoApi.Application.dll
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\bin\Debug\net8.0\CarritoApi.Application.pdb
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\bin\Debug\net8.0\CarritoApi.Domain.dll
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\bin\Debug\net8.0\CarritoApi.Domain.pdb
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoApi.Application.csproj.AssemblyReference.cache
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoApi.Application.AssemblyInfoInputs.cache
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoApi.Application.AssemblyInfo.cs
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoA.A570BD37.Up2Date
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoApi.Application.dll
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\refint\CarritoApi.Application.dll
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoApi.Application.pdb
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\ref\CarritoApi.Application.dll

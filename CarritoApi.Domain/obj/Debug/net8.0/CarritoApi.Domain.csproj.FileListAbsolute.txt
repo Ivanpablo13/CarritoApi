@@ -1,0 +1,11 @@
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\bin\Debug\net8.0\CarritoApi.Domain.deps.json
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\bin\Debug\net8.0\CarritoApi.Domain.dll
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\bin\Debug\net8.0\CarritoApi.Domain.pdb
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\CarritoApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\CarritoApi.Domain.AssemblyInfoInputs.cache
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\CarritoApi.Domain.AssemblyInfo.cs
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\CarritoApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\CarritoApi.Domain.dll
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\refint\CarritoApi.Domain.dll
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\CarritoApi.Domain.pdb
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\ref\CarritoApi.Domain.dll
