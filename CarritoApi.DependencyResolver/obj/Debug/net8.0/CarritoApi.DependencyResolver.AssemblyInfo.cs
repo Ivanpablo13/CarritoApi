@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarritoApi.DependencyResolver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e952d0edc7c6632b0c7f7c38b97d3ba069f02db6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f575623415c6a8280c880f7949d3ec8762270d9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarritoApi.DependencyResolver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarritoApi.DependencyResolver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
