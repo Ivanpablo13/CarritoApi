@@ -13,3 +13,4 @@ C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\C
 C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\refint\CarritoApi.Application.dll
 C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoApi.Application.pdb
 C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\ref\CarritoApi.Application.dll
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Application\obj\Debug\net8.0\CarritoApi.Application.sourcelink.json

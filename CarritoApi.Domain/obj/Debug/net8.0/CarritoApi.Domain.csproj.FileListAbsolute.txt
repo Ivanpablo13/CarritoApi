@@ -9,3 +9,4 @@ C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\Carrit
 C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\refint\CarritoApi.Domain.dll
 C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\CarritoApi.Domain.pdb
 C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\ref\CarritoApi.Domain.dll
+C:\Users\bazan\source\repos\CarritoApi\CarritoApi.Domain\obj\Debug\net8.0\CarritoApi.Domain.sourcelink.json
