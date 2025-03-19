@@ -10,8 +10,11 @@ namespace CarritoApi.Persistence.Repositories
         public async Task<Carrito?> GetCompleteByIdAsync(int id)
         {
             return await context.Carritos
-                .Include(c => c.Productos)
+                .Include(c => c.CarritoProductos)
+                    .ThenInclude(cp => cp.Producto)
                 .FirstOrDefaultAsync(c => c.Id == id);
         }
+
+
     }
 }

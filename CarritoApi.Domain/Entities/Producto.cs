@@ -6,6 +6,6 @@ namespace CarritoApi.Domain.Entities
     {
         public string Nombre { get; set; } = string.Empty;
         public decimal Precio { get; set; }
-        public int CarritoId { get; set; }
+        public ICollection<CarritoProducto> CarritoProductos { get; set; } = new List<CarritoProducto>();
     }
 }

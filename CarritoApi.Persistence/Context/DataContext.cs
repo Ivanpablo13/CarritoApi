@@ -8,21 +8,25 @@ namespace CarritoApi.Persistence.Context
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Carrito> Carritos { get; set; }
         public DbSet<Producto> Productos { get; set; }
+        public DbSet<CarritoProducto> CarritoProducto { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Relación Usuario - Carrito (Uno a Muchos)
-            modelBuilder.Entity<Carrito>()
-                .HasOne(c => c.Usuario)
-                .WithMany() // Un usuario puede tener muchos carritos
-                .HasForeignKey(c => c.UsuarioId);
+            modelBuilder.Entity<CarritoProducto>()
+                .HasKey(cp => new { cp.CarritoId, cp.ProductoId }); 
 
-            // Relación Carrito - Producto (Uno a Muchos)
-            modelBuilder.Entity<Producto>()
-                .HasOne<Carrito>()
-                .WithMany(c => c.Productos) // Un carrito puede tener muchos productos
-                .HasForeignKey(p => p.CarritoId)
-                .OnDelete(DeleteBehavior.Cascade); // Si se elimina un carrito, se eliminan sus productos
+            modelBuilder.Entity<CarritoProducto>()
+                .HasOne(cp => cp.Carrito)
+                .WithMany(c => c.CarritoProductos)
+                .HasForeignKey(cp => cp.CarritoId)
+                .OnDelete(DeleteBehavior.Cascade); 
+
+            modelBuilder.Entity<CarritoProducto>()
+                .HasOne(cp => cp.Producto)
+                .WithMany(p => p.CarritoProductos)
+                .HasForeignKey(cp => cp.ProductoId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
+
     }
 }

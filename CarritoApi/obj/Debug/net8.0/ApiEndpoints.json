@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Int32",
+        "Type": "CarritoApi.Application.Result.CarritoResult",
         "MediaTypes": [
           "text/plain",
           "application/json",

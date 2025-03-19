@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarritoApi.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e952d0edc7c6632b0c7f7c38b97d3ba069f02db6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2385f4702a1f4cf0b85ea75f42d435bc780ebbd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarritoApi.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarritoApi.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

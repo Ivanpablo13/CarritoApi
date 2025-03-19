@@ -17,7 +17,7 @@ namespace CarritoApi.Controllers
 
         [HttpPost]
         [Route("{dniUsuario}/create")]
-        public async Task<ActionResult<int>> CreateNewCarrito(string dniUsuario, CancellationToken cancellationToken)
+        public async Task<ActionResult<CarritoResult>> CreateNewCarrito(string dniUsuario, CancellationToken cancellationToken)
         {
             var carritoId = await _carritoService.CrearCarrito(dniUsuario);
             return Ok(carritoId);

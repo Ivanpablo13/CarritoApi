@@ -17,5 +17,6 @@ namespace CarritoApi.Persistence.Repositories
                 .Take(4)
                 .ToListAsync(cancellationToken);
         }
+
     }
 }
