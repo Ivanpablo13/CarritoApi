@@ -7,6 +7,8 @@ using CarritoApi.Application.Features.ProductosFeature;
 using AutoMapper;
 using CarritoApi.Application.Features.ProductosFeature.AddProductos;
 using CarritoApi.Application.Features.ProductosFeature.DeleteProductos;
+using CarritoApi.Domain.Entities;
+using Azure;
 
 namespace CarritoApi.Controllers
 {
@@ -16,7 +18,7 @@ namespace CarritoApi.Controllers
     {   
 
         [HttpPost]
-        [Route("{dniUsuario}/create")]
+        [Route("Create")]
         public async Task<ActionResult<CarritoResult>> CreateNewCarrito(string dniUsuario, CancellationToken cancellationToken)
         {
             var carritoId = await _carritoService.CrearCarrito(dniUsuario);
@@ -41,11 +43,13 @@ namespace CarritoApi.Controllers
             return Ok(response); 
         }
 
+        /// <param name="id"></param>
+        /// <param name="productid"></param>
         [HttpDelete]
-        [Route("deleteproduct")]
-        public async Task<ActionResult<CarritoResult>> DeleteProductFromCarrito([FromBody] ProductosRequestDto requestDto, CancellationToken cancellationToken)
+        [Route("{id}/Producto/{productid}")]
+        public async Task<ActionResult<CarritoResult>> DeleteProductFromCarrito(int id, int productid, CancellationToken cancellationToken)
         {
-            var req = _mapper.Map<DeleteProductosRequest>(requestDto);
+            var req = new DeleteProductosRequest{ CarritoId = id, ProductoId = productid, };
             var response = await _mediator.Send(req, cancellationToken);
             return Ok(response);
         }
