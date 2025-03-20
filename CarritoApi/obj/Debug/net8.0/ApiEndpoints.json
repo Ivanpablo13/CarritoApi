@@ -58,8 +58,34 @@
   },
   {
     "ContainingType": "CarritoApi.Controllers.CarritoController",
+    "Method": "GetTotalAPagarCarrito",
+    "RelativePath": "api/Carrito/{id}/TotalAPagar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CarritoApi.Application.Result.CarritoResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CarritoApi.Controllers.CarritoController",
     "Method": "AddProductToCarrito",
-    "RelativePath": "api/Carrito/addproduct",
+    "RelativePath": "api/Carrito/Addproduct",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -111,7 +137,7 @@
   {
     "ContainingType": "CarritoApi.Controllers.CarritoController",
     "Method": "GetExpensiveProducts",
-    "RelativePath": "api/Carrito/GetExpensiveProducts/{dniUsuario}",
+    "RelativePath": "api/Carrito/ExpensiveProducts/{dniUsuario}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

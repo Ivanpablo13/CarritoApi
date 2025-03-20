@@ -35,7 +35,7 @@ namespace CarritoApi.Controllers
         }
 
         [HttpPut]
-        [Route("addproduct")]
+        [Route("Addproduct")]
         public async Task<ActionResult<CarritoResult>> AddProductToCarrito([FromBody] ProductosRequestDto requestDto, CancellationToken cancellationToken)
         {
             var req = _mapper.Map<AddProductosRequest>(requestDto);
@@ -49,13 +49,22 @@ namespace CarritoApi.Controllers
         [Route("{id}/Producto/{productid}")]
         public async Task<ActionResult<CarritoResult>> DeleteProductFromCarrito(int id, int productid, CancellationToken cancellationToken)
         {
-            var req = new DeleteProductosRequest{ CarritoId = id, ProductoId = productid, };
+            var req = new DeleteProductosRequest{ CarritoId = id, ProductoId = productid, }; 
             var response = await _mediator.Send(req, cancellationToken);
             return Ok(response);
         }
 
         [HttpGet]
-        [Route("GetExpensiveProducts/{dniUsuario}")]
+        [Route("{id}/TotalAPagar")]
+        public async Task<ActionResult<CarritoResult>> GetTotalAPagarCarrito(int id, CancellationToken cancellationToken)
+        {
+            var response = await _carritoService.TotalAPagarCarrito(id);
+            return Ok(response);
+        }
+
+
+        [HttpGet]
+        [Route("ExpensiveProducts/{dniUsuario}")]
         public async Task<ActionResult<CarritoResult>> GetExpensiveProducts(string dniUsuario, CancellationToken cancellationToken)
         {
             var response = await _carritoService.ObtenerProductosMasCaros(dniUsuario, cancellationToken);
